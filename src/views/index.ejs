@@ -7,15 +7,31 @@
     <title>BCrypt Online</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 
 <body>
     <div class="container">
         <h1 class="header">BCrypt Online</h1>
-        <p class="flow-text"></p>
+        <p class="flow-text">👋 Welcome to BCrypt Online, a simple tool to hash and verify the hash of a string.</p>
+        <div class="row">
+            <form class="col s12" name="hashString">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="hashed_text" type="text" class="validate" name="hashed_text">
+                        <label for="hashed_text">💬 Text to be hashed</label>
+                    </div>
+                </div>
+                <button class="btn waves-effect waves-light" type="button" name="but" onclick="hashString(hashString)">⚡️ Hasher
+                    <i class="material-icons right">send</i>
+                </button>
+            </form>
+        </div>
         <a class="btn" href="/guitars"><i class="material-icons right">arrow_forward</i>Get started!</a>
     </div>
 </body>
 
+<script src="static/js/main.js" type="text/javascript"></script>
 </html>
