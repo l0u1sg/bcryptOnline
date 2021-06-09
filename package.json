@@ -7,7 +7,7 @@
   "author": "Louis Gallet <louis.gallet@tumo.world>",
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf dist/*",
+    "clean": "rimraf build/*",
     "copy-assets": "ts-node tools/copyAssets",
     "lint": "tslint -c tslint.json -p tsconfig.json --fix",
     "tsc": "tsc",
