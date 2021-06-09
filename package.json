@@ -1,0 +1,10 @@
+{
+  "name": "bcryptOnline",
+  "version": "1.0.0",
+  "description": "Simple tool to hash and check the hash of an online site ",
+  "main": "build/index.js",
+  "repository": "https://louisgallet95@github.com/l0u1sg/bcryptOnline.git",
+  "author": "Louis Gallet <louis.gallet@tumo.world>",
+  "license": "MIT",
+  "private": false
+}
